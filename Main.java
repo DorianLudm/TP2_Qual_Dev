@@ -1,3 +1,6 @@
+import java.util.ArrayList
+import dyonysies.Dyonysies
+
 class Main {
   public static void main(String[] args) {
     //Journée demain = new Journée(Style.TRAGÉDIE, Style.COMÉDIE, Style.DRAME);
@@ -5,7 +8,7 @@ class Main {
     String citation_antigone =
         "C'est ainsi que j'irai reposer près de lui, chère à qui m'est cher, saintement"
             + " criminelle.";
-
+    Tournoi = new Tournoi("Test")
     String citation_limiers =
         "Un bruit? Voilà bien de mes froussards! Vous avez peur? Fétides individus, pétris de\n"
             + " pâte à nouilles, la pire faune de couards! La moindre ombre que vous voyez vous\n"
