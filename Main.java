@@ -1,5 +1,5 @@
 import java.util.ArrayList
-import dyonysies.Dyonysies
+import dionysies.Tournoi;
 
 class Main {
   public static void main(String[] args) {
@@ -87,5 +87,13 @@ class Main {
     assert aristophane.getQualitéStyle(Style.COMÉDIE) == 100;
     //System.out.println("Ici, au programme demain matin: " + demain.get_matin());
     //System.out.println("Ici, au programme demain soir: " + demain.get_soirée());
+    t.inscrire(aristophane);
+    t.inscrire(sophocle);
+    t.inscrire(euripide);
+    t.débute();
+    t.enregistre_résultat_journée(true);
+    System.out.println(t.est.terminé());
+    t.enregistre_résultat_journée(false);
+    Sustem.out.println(t.est_terminé());
   }
 }
