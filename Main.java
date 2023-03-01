@@ -1,5 +1,5 @@
 import java.util.ArrayList
-import dionysies.Tournoi;
+import dyonysies.Tournoi
 
 class Main {
   public static void main(String[] args) {
